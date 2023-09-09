@@ -24,6 +24,7 @@ int main() {
     int hours, minutes;
     std::cout << "Введите через пробел часы (от 1 до 12) и минуты (от 0 до 59):" << std::endl;
     std::cin >> hours >> minutes;
+    
     std::cout << "Введите период (am или pm): " << std::endl;
 
     std::string period;
