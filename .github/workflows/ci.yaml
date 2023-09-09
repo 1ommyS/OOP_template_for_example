@@ -10,7 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: boost
-      run: sudo apt-get update && sudo apt-get install -yq libboost1.65-dev
 
     # build project.
     - name: create build folder
